@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #s.watchos.deployment_target = '2.0' <- waiting on PromiseKit 1.5 to add this to their podspec
   s.ios.deployment_target = '7.0'
   s.watchos.deployment_target = '2.0'
-  s.source       = { :git => "https://github.com/ios-tech/SGImageCache.git", :tag => "2.4.0" }
+  s.source       = { :git => "https://github.com/ios-tech/SGImageCache.git" }
   s.source_files = "*.{h,m}"
   s.requires_arc = true
   s.dependency "SGHTTPRequest/Core", '~> 1.8', :git=>'https://github.com/ios-tech/SGHTTPRequest.git'
