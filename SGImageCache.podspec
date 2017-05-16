@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "SGImageCache"
   s.version      = "2.4.0"
   s.summary      = "A lightweight iOS image cache."
-  s.homepage     = "https://github.com/seatgeek/SGImageCache"
+  s.homepage     = "https://github.com/ios-tech/SGImageCache"
   s.license      = { :type => "BSD", :file => "LICENSE" }
   s.author       = "SeatGeek"
   #s.watchos.deployment_target = '2.0' <- waiting on PromiseKit 1.5 to add this to their podspec
