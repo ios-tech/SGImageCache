@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.dependency "AFNetworking"
   s.dependency "MGEvents", '~> 1.1'
   s.dependency 'PromiseKit/Promise', '~> 1.5'
+  s.tvos.deployment_target = '9.0'
 end
